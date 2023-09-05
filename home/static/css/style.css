@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    
+
+}
+
+.section-title {
+    color: rgb(28, 39, 76);
+}
+
+.vhr {
+    border:         none;
+    border-left:    2px solid hsl(206, 5%, 72%);
+    height:         auto;
+    width:          1px; 
+    padding:        0px;
+    margin:         0px;
+}
+
+.modal-content iframe {
+    width: 100%; 
+    height: auto; 
+}
